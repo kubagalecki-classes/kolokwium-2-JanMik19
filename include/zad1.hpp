@@ -26,7 +26,6 @@ public:
     static unsigned getVeg() { return liczba; }
     void            opis(std::ostream& cout) const
     {
-        cout << "[" << nazwa << "]:[" << cena << "], "
-             << "[" << kolor << "]" << std::endl;
+        cout << nazwa << ":" << cena << ", " << kolor << std::endl;
     }
 };
