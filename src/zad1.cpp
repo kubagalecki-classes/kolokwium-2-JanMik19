@@ -1,6 +1,6 @@
 #include "zad1.hpp"
 
-inline unsigned Warzywo::liczba = 0;
+unsigned Warzywo::liczba = 0;
 
 TEST_CASE("Test klasy Warzywo", "[zad1]")
 {
