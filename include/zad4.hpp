@@ -8,7 +8,7 @@
 void jedzOstatnieWarzywa(const std::vector<Warzywo>& vec, unsigned n, std::ostream& cout)
 {
     if (n >= vec.size())
-        throw std::logic_error "N wieksze niz wektor!";
+        throw std::logic_error {"N wieksze niz wektor!"};
     else
     {
         int x = vec.size() - n - 1;
