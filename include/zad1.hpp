@@ -12,7 +12,7 @@ class Warzywo
     std::string            nazwa;
     double                 cena;
     int                    kolor;
-    inline static unsigned liczba;
+    static unsigned liczba;
 
 public:
     Warzywo(const std::string& n, double c, int k)
